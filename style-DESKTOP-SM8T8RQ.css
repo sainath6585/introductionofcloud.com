@@ -1,0 +1,52 @@
+.wrapper{
+    width: 1170px;
+    margin: none;
+}
+body{
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.4)),rgba(0, 0, 0, 0.4):
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: black;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background: #0d0e0def ;
+    background-size: cover;
+}
+
+.manu{
+    align: right
+    list-style: none;
+    margin-top: 20px;
+    padding-right: 10px;
+
+
+}  
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    align-items: right;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+.menu li a:hover{
+    float: right;
+    background: white;
+    color: black;
+    text-align: right;
+}
+.flex{
+    display: flex;
+    
+}
+.next{
+    color: black;
+}
+
